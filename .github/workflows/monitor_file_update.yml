@@ -4,8 +4,8 @@ on:
   # 允许手动触发
   workflow_dispatch:
   # 定时运行
-  schedule:
-    - cron: '*/60 * * * *'  # 每60分钟运行一次
+  $schedule:
+    #- cron: '*/60 * * * *'  # 每60分钟运行一次
 
 jobs:
   download-and-update:
