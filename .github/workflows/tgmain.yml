@@ -1,0 +1,53 @@
+name: 下载并更新文件
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/60 * * * *'  # 每 60 分钟运行一次
+
+jobs:
+  download-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出代码仓库
+        uses: actions/checkout@v4
+
+      - name: 下载并解压文件
+        run: |
+          mkdir -p temp_download
+          cd temp_download
+          echo "正在下载文件..."
+          curl -L -o "single_line.zip" "https://jihulab.com/fourd/FourD/-/raw/main/local/单线路.zip"
+          cd ..
+          unzip -o temp_download/single_line.zip -d .
+          rm -rf temp_download
+
+      - name: 提交更改
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add .
+            git commit -m "更新：单线路文件 $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+      - name: 发送文件到 Telegram 和 发送通知
+        run: |
+          API_TOKEN=${{ secrets.7731411002:AAE6Sx5IC_v7suLFsqwNVsC4MWFwm6ZiSV8 }}
+          CHAT_ID=${{ secrets.5286496091 }}
+          FILE="xs.zip"  # 文件名
+          FILE_PATH="./single_line.zip"  # 文件路径
+
+          # 重命名文件
+          mv "${FILE_PATH}" "./${FILE}"
+
+          # 发送文件到 Telegram
+          curl -F "chat_id=${CHAT_ID}" \
+               -F "document=@./${FILE}" \
+               -F "caption=来自 GitHub Actions 的文件 - ${GITHUB_WORKFLOW}" \
+               -F "parse_mode=Markdown" \
+               "https://api.telegram.org/bot${API_TOKEN}/sendDocument"
