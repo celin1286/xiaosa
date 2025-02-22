@@ -37,8 +37,8 @@ jobs:
 
       - name: 发送文件到 Telegram 和 发送通知
         run: |
-          API_TOKEN=${{ secrets.7731411002:AAE6Sx5IC_v7suLFsqwNVsC4MWFwm6ZiSV8 }}
-          CHAT_ID=${{ secrets.5286496091 }}
+          API_TOKEN=${{ secrets.TG_API_TOKEN }}
+          CHAT_ID=${{ secrets.TG_CHAT_ID }}
           FILE="xs.zip"  # 文件名
           FILE_PATH="./single_line.zip"  # 文件路径
 
@@ -46,8 +46,8 @@ jobs:
           mv "${FILE_PATH}" "./${FILE}"
 
           # 发送文件到 Telegram
-          curl -F "chat_id=${CHAT_ID}" \
+          curl -F "chat_id=${5286496091}" \
                -F "document=@./${FILE}" \
                -F "caption=来自 GitHub Actions 的文件 - ${GITHUB_WORKFLOW}" \
                -F "parse_mode=Markdown" \
-               "https://api.telegram.org/bot${API_TOKEN}/sendDocument"
+               "https://api.telegram.org/bot${7731411002:AAE6Sx5IC_v7suLFsqwNVsC4MWFwm6ZiSV8}/sendDocument"
