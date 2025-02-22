@@ -8,9 +8,14 @@ jobs:
   download-and-upload:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Download ZIP file
         run: |
           curl -L -o xs.zip https://jihulab.com/fourd/FourD/-/raw/main/local/单线路.zip
+          # 验证文件是否存在
+          file xs.zip
 
       - name: Upload to Telegram
         env:
