@@ -15,11 +15,11 @@ jobs:
         run: |
           curl -L -o xs.zip https://jihulab.com/fourd/FourD/-/raw/main/local/单线路.zip
           # 验证文件是否存在
-          file xs.zip
+          file 单线路.zip
 
       - name: Upload to Telegram
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
-          curl -s -X POST https://api.telegram.org/bot$TG_BOT_TOKEN/sendDocument -F chat_id=$TG_CHAT_ID -F document=@xs.zip
+          curl -s -X POST https://api.telegram.org/bot$TG_BOT_TOKEN/sendDocument -F chat_id=$TG_CHAT_ID -F document=@单线路.zip
