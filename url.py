@@ -161,5 +161,22 @@ def main():
     else:
         print("更新失败，保持文件不变")
 
+def get_redirect_data():
+    """
+    token必须为管理员的token
+    查看映射关系：http://ip:port:3000/redirect/?token=abc123
+    """
+    res = requests.get('http://47.79.86.9:8080/redirect/', params={'token':'cdcd890204'}, timeout=5, verify=False)
+    res.raise_for_status()
+    return res.json() # data为t4后台配置的重定向数据
+
+def post_redirect_data(data):
+    """
+    提交数据，data为需要更新的映射关系数据
+    """
+    res = requests.post('http://47.79.86.9:8080/redirect/', params={'token':'cdcd890204'}, json=data, timeout=5, verify=False)
+    res.raise_for_status()
+    print("更新t4重定向数据成功！")
+
 if __name__ == "__main__":
     main()
