@@ -1046,6 +1046,16 @@
             "ext": "./JS/碟调影视.js"
         },
         {
+            "key": "百思派",
+            "name": "百思派｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/百思派.json"
+        },
+        {
             "key": "电影牛",
             "name": "电影牛｜影视",
             "type": 3,
@@ -1653,6 +1663,17 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/电影港.json"
+        },
+        {
+            "key": "狐狸君",
+            "name": "狐狸君｜磁力",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/狐狸君.json"
         },
         {
             "key": "布谷TV",
