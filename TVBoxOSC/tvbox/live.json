@@ -18,6 +18,10 @@
 		{
 			"name": "JSCM",
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/JSCM.m3u"
+		},
+		{
+			"name": "Migu",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u"
 		}
 	],
 	"headers": [{
