@@ -10,11 +10,16 @@
 		"jar": "https://wget.la/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/fm.jar"
 	}],
 	"lives": [{
-		"name": "Kimentanm",
-		"type": 0,
-		"url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-		"playerType": 2
-	}],
+			"name": "Kimentanm",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+			"playerType": 2
+		},
+		{
+			"name": "JSCM",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/JSCM.m3u"
+		}
+	],
 	"headers": [{
 		"host": "hlsztemgsplive.miguvideo.com",
 		"header": {
