@@ -6,8 +6,8 @@
 		"api": "csp_Market",
 		"searchable": 0,
 		"changeable": 0,
-		"ext": "https://wget.la/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/market.json",
-		"jar": "https://wget.la/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/fm.jar"
+		"ext": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/market.json",
+		"jar": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/fm.jar"
 	}],
 	"lives": [{
 			"name": "Kimentanm",
