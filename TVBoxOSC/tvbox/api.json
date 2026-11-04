@@ -817,7 +817,13 @@
             "key": "荐片",
             "name": "荐片 • 磁力",
             "api": "csp_JianPian",
-            "type": 3
+            "type": 3,
+            "ext": {
+                "site":[
+                    "https://www.whhyn.com",
+                    "https://www.zxfmj.com"
+                ]
+            }
         },
         {
             "key": "New6v",
