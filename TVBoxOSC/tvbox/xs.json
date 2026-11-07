@@ -416,19 +416,6 @@
             "filterable": 1
         },
         {
-            "key": "面包影视",
-            "name": "面包 • 影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-                "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
-                "简介": "简介：&&"
-            }
-        },
-        {
             "key": "剧圈影视",
             "name": "剧圈 • 影视",
             "type": 3,
