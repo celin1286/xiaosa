@@ -669,6 +669,12 @@
             "genre": "shortdrama"
         },
         {
+            "key": "星辰影视",
+            "name": "星辰 • 影视",
+            "type": 3,
+            "api": "csp_XingChen"
+        },
+        {
             "key": "飞娱影视",
             "name": "飞娱 • 影视",
             "type": 3,
