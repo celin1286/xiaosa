@@ -59,6 +59,15 @@
             "filterable": 0
         },
         {
+            "key": "下饭",
+            "name": "下饭 • APP",
+            "type": 3,
+            "api": "csp_JuXiaFan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "快映fox",
             "name": "快映 • APP",
             "type": 3,
