@@ -24,6 +24,15 @@
             }
         },
         {
+            "key": "米诺",
+            "name": "米诺 • APP",
+            "type": 3,
+            "api": "csp_AppMN",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
             "key": "快映fox",
             "name": "快映 • APP",
             "type": 3,
@@ -349,6 +358,18 @@
                 "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
             },
             "genre": "shortdrama"
+        },
+        {
+            "key": "懂片",
+            "name": "懂片 • 影视",
+            "type": 3,
+            "api": "csp_DongPian"
+        },
+        {
+            "key": "杜北",
+            "name": "杜北 • 影视",
+            "type": 3,
+            "api": "csp_Dubk"
         },
         {
             "key": "星辰影视",
