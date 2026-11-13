@@ -687,16 +687,16 @@
             "genre": "shortdrama"
         },
         {
+            "key": "看剧",
+            "name": "看剧 • 影视",
+            "type": 3,
+            "api": "csp_KanJuAI"
+        },
+        {
             "key": "懂片",
             "name": "懂片 • 影视",
             "type": 3,
             "api": "csp_DongPian"
-        },
-        {
-            "key": "杜北",
-            "name": "杜北 • 影视",
-            "type": 3,
-            "api": "csp_Dubk"
         },
         {
             "key": "星辰影视",
