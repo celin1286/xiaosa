@@ -3,25 +3,25 @@
 	"list": [{
 			"name": "MO影视32位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/默影视/mobile-armeabi_v7a.apk",
-			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.jpg",
+			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.png",
 			"version": "py-v7a"
 		},
 		{
 			"name": "MO影视64位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/默影视/mobile-arm64_v8a.apk",
-			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.jpg",
+			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.png",
 			"version": "py-v8a"
 		},
 		{
 			"name": "MO影视32位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/默影视/leanback-armeabi_v7a.apk",
-			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.jpg",
+			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.png",
 			"version": "py-v7a"
 		},
 		{
 			"name": "MO影视64位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/默影视/leanback-arm64_v8a.apk",
-			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.jpg",
+			"icon": "https://down.nigx.cn/raw.githubusercontent.com/celin1286/xiaosa/refs/heads/main/TVBoxOSC/tvbox/mo.png",
 			"version": "py-v8a"
 		},
 		{
