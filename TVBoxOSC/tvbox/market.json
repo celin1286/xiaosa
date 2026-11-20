@@ -1,5 +1,16 @@
 [
   {
+    "name": "推荐",
+    "list": [
+      {
+        "name": "酷我音乐",
+        "url": "https://pan.ediart.ggff.net/webdav/推荐/酷我音乐.apk",
+        "icon": "https://www.dolby.com/globalassets/27.jpg",
+        "version": "天天会员版"
+      }
+    ]
+  },
+  {
     "name": "MO影视",
     "list": [
       {
