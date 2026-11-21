@@ -68,15 +68,6 @@
             "filterable": 0
         },
         {
-            "key": "下饭",
-            "name": "下饭 • APP",
-            "type": 3,
-            "api": "csp_JuXiaFan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "快映fox",
             "name": "快映 • APP",
             "type": 3,
@@ -735,12 +726,6 @@
             "api": "csp_XingChen"
         },
         {
-            "key": "飞娱影视",
-            "name": "飞娱 • 影视",
-            "type": 3,
-            "api": "csp_Feiyu"
-        },
-        {
             "key": "旺旺影视",
             "name": "旺旺 • 影视",
             "type": 3,
@@ -767,7 +752,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://cz01.vip/"
+            "ext": "https://www.4kcz.com"
         },
         {
             "key": "金牌影视",
@@ -782,13 +767,6 @@
             "type": 3,
             "api": "csp_SaoHuo",
             "ext": "https://shdy5.us"
-        },
-        {
-            "key": "枫叶影视",
-            "name": "枫叶 • 影视",
-            "type": 3,
-            "api": "csp_FengYe",
-            "ext": "https://www.vip1949.com/"
         },
         {
             "key": "爱看机器人",
