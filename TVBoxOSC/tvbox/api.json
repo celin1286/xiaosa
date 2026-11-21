@@ -153,10 +153,10 @@
             "api": "csp_AppV7",
             "ext": {
                 "host": "http://app2.dsx.ac/ndsx.php",
-                "version": "4.0.0",
-                "version_number": "4000",
+                "version": "4.0.6",
+                "version_number": "4006",
                 "pk_id": "com.qdsj.zxt.hzjc",
-                "build_time": "1786613938967",
+                "build_time": "1790053427039",
                 "sign_md5": "56a4bb80bd67422e9c5b48f003d445c8",
                 "apk_length": "59954699",
                 "platform": "",
@@ -539,10 +539,9 @@
             "quickSearch": 0,
             "ext": {
                 "site":[
-                    "https://sidhub.cc",
+                    "https://seedog.cc",
                     "https://seeduck.cc",
-                    "https://hubdog.cc",
-                    "http://104.243.25.80"
+                    "https://hubdog.cc"
                 ]
             },
             "timeout": 60
@@ -597,8 +596,8 @@
             "filterable": 1,
             "ext": {
                 "site":[
-                    "https://www.hdmoli.com",
-                    "https://www.hdmoli.pro"
+                    "https://www.hdmoli.me",
+                    "https://www.hdmoli.org"
                 ]
             },
             "timeout": 60
