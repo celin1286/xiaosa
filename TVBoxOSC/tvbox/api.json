@@ -417,22 +417,6 @@
             "timeout": 60
         },
         {
-            "key": "闪电",
-            "name": "闪电 • 4K",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "site":[
-                    "http://shandian.blog"
-                ]
-            },
-            "timeout": 60
-        },
-        {
             "key": "蜡笔",
             "name": "蜡笔 • 4K",
             "type": 3,
