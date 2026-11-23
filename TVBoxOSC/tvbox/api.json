@@ -436,6 +436,23 @@
             "timeout": 60
         },
         {
+            "key": "闪电",
+            "name": "闪电 • 4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site":[
+                    "http://oo.sduc.site",
+                    "http://sd.sduc.site"
+                ]
+            },
+            "timeout": 60
+        },
+        {
             "key": "多多",
             "name": "多多 • 4K",
             "type": 3,
